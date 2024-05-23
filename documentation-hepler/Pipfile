@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+openai = "*"
+langchain = "*"
+black = "*"
+tiktoken = "*"
+python-dotenv = "*"
+beautifulsoup4 = "*"
+nltk = "*"
+pinecone-client = "*"
+unstructured = "*"
+fastapi = "*"
+jinja2 = "*"
+uvicorn = "*"
+streamlit-chat = "*"
+tqdm = "*"
+langchain-pinecone = "*"
+langchain-openai = "*"
+streamlit = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
